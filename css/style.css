@@ -1,0 +1,27 @@
+body{
+    background-color: whitesmoke ;
+    font-family:'Gill Sans';
+}
+#h3{
+    color: black;
+    font-family: 'Gill Sans MT';
+}
+
+/*form*/
+input[type="text"], input[type="date"], textarea, select {
+    width: 100%;
+    border-radius: 10px; /*sudut border*/
+    padding: 5px; /* sisi dalam border*/
+    border: 2px dashed red; /* solid, dashed, dotted*/
+    /*margin: 20 px; sisi luar border*/
+}
+
+button{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    
+}
