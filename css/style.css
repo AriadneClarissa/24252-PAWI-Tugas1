@@ -5,32 +5,46 @@ body{
 #h3, h4{
     color: black;
     font-family: 'Trebuchet MS';
-    text-align: center;
 }
 #h5{
-    color: aliceblue;
+    color: white;
     font-family: Tahoma;
 }
 p{
-    color: aliceblue;
+    color: black;
     font-family: Tahoma;
 }
+#p{
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+}
 
+.navbar-custom{
+    background-color: #CBDCEB ;
+}
 /*form*/
 input[type="text"], input[type="date"], textarea, select {
     width: 100%;
     border-radius: 10px; /*sudut border*/
     padding: 5px; /* sisi dalam border*/
-    border: 2px dashed red; /* solid, dashed, dotted*/
+    border: 2px solid #133E87; /* solid, dashed, dotted*/
     /*margin: 20 px; sisi luar border*/
 }
 
 button{
     border-radius: 10px;
     border: 1px solid white;
-    background-color: red;
+    background-color: #133E87;
     color: white;
     padding: 5px;
     width: 100%;
     
+}
+li{
+    font-family: 'Trebuchet MS';
+}
+
+.rounded{
+    border-radius: 20px;
 }
