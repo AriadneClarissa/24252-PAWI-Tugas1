@@ -1,10 +1,10 @@
 body{
-    background-color: whitesmoke ;
-    font-family:'Gill Sans';
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium';
 }
 #h3{
     color: black;
-    font-family: 'Gill Sans MT';
+    font-family: sans-serif;
 }
 
 /*form*/
