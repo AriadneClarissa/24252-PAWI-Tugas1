@@ -1,10 +1,19 @@
 body{
-    background-color: pink;
+    background-color: white;
     font-family: 'Franklin Gothic Medium';
 }
-#h3{
+#h3, h4{
     color: black;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+#h5{
+    color: aliceblue;
+    font-family: Tahoma;
+}
+p{
+    color: aliceblue;
+    font-family: Tahoma;
 }
 
 /*form*/
