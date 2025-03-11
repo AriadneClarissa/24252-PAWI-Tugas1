@@ -23,12 +23,20 @@ h6{
     color: black;
     font-family: 'Trebuchet MS';
 }
+h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+h5{
+    color: black;
+    font-family: 'Trebuchet MS';
+}
 
 .navbar-custom{
     background-color: #135D66 ;
 }
 /*form*/
-input[type="text"], input[type="date"], textarea, select {
+input[type="text"], input[type="date"],input[type="email"], textarea, select {
     width: 100%;
     border-radius: 10px; /*sudut border*/
     padding: 5px; /* sisi dalam border*/
@@ -51,4 +59,14 @@ li{
 
 .rounded{
     border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #77B0AA;
+    text-decoration: underline;
 }
