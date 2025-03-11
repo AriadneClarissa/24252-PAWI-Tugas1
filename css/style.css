@@ -19,9 +19,13 @@ p{
     font-family: Tahoma;
     text-align: center;
 }
+h6{
+    color: black;
+    font-family: 'Trebuchet MS';
+}
 
 .navbar-custom{
-    background-color: #CBDCEB ;
+    background-color: #135D66 ;
 }
 /*form*/
 input[type="text"], input[type="date"], textarea, select {
