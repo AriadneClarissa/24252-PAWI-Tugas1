@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar" style="background-color: #608BC1;">
+    <nav class="navbar" style="background-color: #77B0AA;">
         <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -56,7 +56,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <h1 style="text-align: center; font-family: Tahoma;">Modal Usaha yang Menjamin Anda</h1>
+        <h1 style="text-align: center; font-family: 'Franklin Gothic Medium';">Modal Usaha yang Menjamin Anda</h1>
         <h4>Syarat dan Ketentuan</h4>
         <h5 style="font-family: 'Trebuchet MS';">Perseorangan :</h5>
         <ol type="1">
@@ -129,6 +129,9 @@
             required> <br> 
             NIK <br>
             <input type="text" name="nik" id="nik"
+            required> <br>
+            NPWP <br>
+            <input type="text" name="npwp" id="npwp"
             required> <br> 
             Tanggal Lahir <br>
             <input type="date" name="tanggallahir" 
@@ -138,8 +141,15 @@
             <input type="radio" name="jk" id="jkp" value="P"> Perempuan <br>
             Jenis Badan <br>
             <select name="tempatlahir" id="tempatlahir">
-                <option value="PLB">Individu</option>
-                <option value="JKT">Badan Usaha</option>
+                <option value="I">Individu</option>
+                <option value="BU">Badan Usaha</option>
+            </select> <br>
+            Jenis Produk <br>
+            <select name="produk" id="produk">
+                <option value="KU">Kredit Usaha</option>
+                <option value="KMU">Kredit Multiguna Usaha</option>
+                <option value="KUR">Kredit Usaha Rakyat</option>
+                <option value="KTU">Kredit Tempat Usaha</option>
             </select> <br>
             Alamat <br>
             <textarea name="pesan" id="pesan"></textarea> <br>
