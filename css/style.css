@@ -35,6 +35,9 @@ h5{
 .navbar-custom{
     background-color: #135D66 ;
 }
+.table-custom{
+    background-color: #003C43;
+}
 /*form*/
 input[type="text"], input[type="date"],input[type="email"], textarea, select {
     width: 100%;
