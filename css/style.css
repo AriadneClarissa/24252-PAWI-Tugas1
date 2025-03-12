@@ -43,14 +43,14 @@ input[type="text"], input[type="date"],input[type="email"], textarea, select {
     width: 100%;
     border-radius: 10px; /*sudut border*/
     padding: 5px; /* sisi dalam border*/
-    border: 2px solid #133E87; /* solid, dashed, dotted*/
+    border: 1px solid #003C43; /* solid, dashed, dotted*/
     /*margin: 20 px; sisi luar border*/
 }
 
 button{
     border-radius: 10px;
     border: 1px solid white;
-    background-color: #133E87;
+    background-color: #003C43;
     color: white;
     padding: 5px;
     width: 100%;
